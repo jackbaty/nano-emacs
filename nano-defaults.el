@@ -108,12 +108,12 @@
 (pixel-scroll-mode t)
 
 ;; Mac specific
-(setq ns-use-native-fullscreen t
-      mac-option-key-is-meta nil
-      mac-command-key-is-meta t
-      mac-command-modifier 'meta
-      mac-option-modifier nil
-      mac-use-title-bar nil)
+;;(setq ns-use-native-fullscreen t
+;;      mac-option-key-is-meta nil
+;;      mac-command-key-is-meta t
+;;      mac-command-modifier 'meta
+;;      mac-option-modifier nil
+;;      mac-use-title-bar nil)
 
 ;; Make sure clipboard works properly in tty mode on OSX
 (defun copy-from-osx ()
